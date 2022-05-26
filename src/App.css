@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: 'center';
+  background-color: '#ecf0f1';
+  padding: 8;
+}
+
+.movie-single h2 {
+  display: block;
+  width: 100%;
+  background: blue;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+}
+.movie-single .posters {
+  display: flex;
+}
+.posters .meta {
+  max-width: 70%;
+  width: 65%;
+}
+.movie-single .posters .img-wrapper {
+  width: 35%;
+}
+
+.movie-single .img-wrapper {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.movie-single .meta {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+}
+.movie-single .back-button {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  background: #911f87;
+}
+.movie-single .back-button button {
+  border: none;
+  background: green;
+  padding: 8px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.searchDiv input {
+  width: 65%;
+  background: transparent;
+  margin: 10px;
+  color: #fff;
+}
+
+.searchDiv {
+  display: block;
+  width: 100%;
+  background: #333;
+  color: #fff;
+}
+.searchDiv button {
+  margin: 10px;
+  width: 23%;
+  padding: 7px;
+  font-size: 1.5rem;
+}
+
+.movies .card {
+  display: block;
+  text-align: center;
+  width: 48%;
+  float: left;
+  border: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.movies .card button {
+  padding: 10px;
+  width: 90%;
+  background: #625d5d;
+  color: #fff;
+  font-size: 1.3rem;
+  border: 0;
+}
+button, .movie_click {
+  cursor: pointer;
+}
+.img-wrapper img {
+  width: 100%;
+}
